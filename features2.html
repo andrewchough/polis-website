@@ -5,6 +5,11 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!-- Import animate.css -->
+    <link type="text/css" rel="stylesheet" href="css/animate.css"  media="screen,projection"/>
+    <!-- Import animate.css -->
+    <link type="text/css" rel="stylesheet" href="css/features.css"  media="screen,projection"/>
+
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -24,7 +29,7 @@
         <!-- Section Start -->
         <div class="section">
 
-          <h4>How Do iBeacons Work</h4>
+          <h4 class="animated fadeIn hidden how">How Do iBeacons Work</h4>
           <p>iBeacons send out packets of information from itself to an ios or android device.
           This allows for location-based info to be passed to the user without and invasive
           scan or search to do it.</p>
@@ -43,7 +48,7 @@
 
           <div class="row">
             <!-- Start left side -->
-            <div class="col s3">
+            <div class="col s12 m3">
               <div class="row">
                 <div class="col s12">
                   <h5><b>Counting</b></h5>
@@ -72,13 +77,13 @@
             <!-- End left side -->
 
             <!-- Start Center -->
-            <div class="col s6">
+            <div class="col s12 m6">
               <img class="responsive-img" src="http://www.rokkmedia.co.uk/wp-content/uploads/2015/03/photo-5.jpg">
             </div>
             <!-- End Center -->
 
             <!-- Start right side -->
-            <div class="col s3">
+            <div class="col s12 m3">
               <div class="row">
                 <div class="col s12">
                   <h5><b>Notifications</b></h5>
@@ -94,14 +99,18 @@
 
               <div class="row">
                 <div class="col s12">
-                  <h5><b>Cost Effective</b></h5>
+                  <div class="animated fadeIn how">
+                    <h5><b>Cost Effective</b></h5>
+                  </div>
                 </div>
 
                 <div class="col s12">
-                  <img class="circle responsive-img" src="https://lh3.googleusercontent.com/1e9n54Dw4nf_4CDD4fbZiric_QmdFbsKHSlC3eqZ0ortwMGSr15k5145KXAO20pUaY3xNqWFd3L3kNYakzBm46WagPZNaLcIVunweaCVSQHK0LDmSft6g1HAmai58QCKc5G4rih3U7f265M6aTH6b7vRmFWAQcTiosxKQu9SLUPZauVwkiMM4yDRG_pc5Ilv4gQoGa5iA2ceq4W7yPoPE2_w6eaeCVz-YoMbHB9GaIQWZXn_19M2Ma1sXKMT7kZ444aFn7FesHyWNhJ2E1GxoewPRjiYaNEJ506wpjRBCFudEAbcd80t6bHEkMwjxcCVFEXrzvW6gukUYUs62Ba2gdb8TDUU6GvfneTjjGbNF8NycSTZ4LRY4mA9jwenoz8XDSZFxzsQY0J2lZKJpgr0BnaeE5L587kdFqslkwZqcTww2MEegFvxR9eQiMZ2t7UUxhkSHzwlb0BcM6BAQGZ4pBkTJvW51reZ2yZbszWOPCEUcDm9EvEffJi5tPI9hO2b0IlRsKjGC5tyB4-yR-QXKcVT2uN9_c3ws8HQsEuEHDC54AZTDG04bhfTF0nAoelAfOtErlZoanjLhjLCISjT0yVdAStfqXM2H9YWYTF3jiVlhqBYCvmlYiDJmZBXYqq3i0zzIvRBgfaO1p2Wf_UCOVuMhBFnNCAEkci7mfN6aQ=w405-h349-no" alt="">
-                  <p>iBeacons 60-80% cheaper than traditional Bluetooth. That means that you can place more of them
-                  and provide more information.
-                  </p>
+                  <div class="animated fadeIn hidden how">
+                    <img class="circle responsive-img" src="https://lh3.googleusercontent.com/1e9n54Dw4nf_4CDD4fbZiric_QmdFbsKHSlC3eqZ0ortwMGSr15k5145KXAO20pUaY3xNqWFd3L3kNYakzBm46WagPZNaLcIVunweaCVSQHK0LDmSft6g1HAmai58QCKc5G4rih3U7f265M6aTH6b7vRmFWAQcTiosxKQu9SLUPZauVwkiMM4yDRG_pc5Ilv4gQoGa5iA2ceq4W7yPoPE2_w6eaeCVz-YoMbHB9GaIQWZXn_19M2Ma1sXKMT7kZ444aFn7FesHyWNhJ2E1GxoewPRjiYaNEJ506wpjRBCFudEAbcd80t6bHEkMwjxcCVFEXrzvW6gukUYUs62Ba2gdb8TDUU6GvfneTjjGbNF8NycSTZ4LRY4mA9jwenoz8XDSZFxzsQY0J2lZKJpgr0BnaeE5L587kdFqslkwZqcTww2MEegFvxR9eQiMZ2t7UUxhkSHzwlb0BcM6BAQGZ4pBkTJvW51reZ2yZbszWOPCEUcDm9EvEffJi5tPI9hO2b0IlRsKjGC5tyB4-yR-QXKcVT2uN9_c3ws8HQsEuEHDC54AZTDG04bhfTF0nAoelAfOtErlZoanjLhjLCISjT0yVdAStfqXM2H9YWYTF3jiVlhqBYCvmlYiDJmZBXYqq3i0zzIvRBgfaO1p2Wf_UCOVuMhBFnNCAEkci7mfN6aQ=w405-h349-no" alt="">
+                    <p>iBeacons 60-80% cheaper than traditional Bluetooth. That means that you can place more of them
+                    and provide more information.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -127,13 +136,33 @@
         </div>
         <!-- Section End -->
      </div>
-   </body>
 
-  <body>
     <!--Import jQuery before materialize.js-->
     <script src="jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!-- JavaScript Code -->
+    <script>
+      function isScrolledIntoView(elem) {
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(windo).height();
+
+        var elemTop = $(elem).offset().top;
+        var elemBottom = elemTop + $(elem).height();
+
+        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+      }
+
+      // Works on specific ID in Code
+
+      $(window).scroll(function() {
+        $('.animated').each(function() {
+          if(isScrolledIntoView(this) === true) {
+            $(this).addClass('visible animated fadeIn')
+          }
+        });
+      });
+    </script>
   </body>
 
 </html>
