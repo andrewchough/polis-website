@@ -134,7 +134,7 @@ h1 {
 }
 
 .hovereffect h2, .hovereffect p {
-  color: #FFF;
+  : #FFF;
   opacity: 0;
   position: relative;
   bottom: 2vh;
@@ -537,6 +537,13 @@ ul {
 
 a {
   @extend %transition;
+}
+
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #3c3c3c;
 }
 
 hr {
