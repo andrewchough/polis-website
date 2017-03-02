@@ -219,8 +219,8 @@ h1 {
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
-  max-width: 46vh;
-  height: 150px;
+  max-width: 100%;
+  height: 300px;
 }
 
 .feedback-input:focus{
@@ -249,9 +249,9 @@ h1 {
 #name:focus{
 	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
 	background-size: 30px 30px;
-	background-position: 5px 6px 0px 5px;
+	background-position: 11px 8px;
 	background-repeat: no-repeat;
-  width: 79%;
+  width: 85%;
   height: 90%;
 }
 
@@ -270,7 +270,7 @@ h1 {
 	background-size: 30px 30px;
   background-position: 11px 8px;
 	background-repeat: no-repeat;
-  width: 79%;
+  width: 85%;
   height: 90%;
 }
 
