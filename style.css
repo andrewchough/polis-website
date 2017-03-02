@@ -554,3 +554,26 @@ hr {
 .sec-folio .row {
   margin-bottom: 3em;
 }
+
+/******************* Nigel CSS *******************/
+
+.how {
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
+}
+
+.hidden {
+  opacity:0;
+}
+
+.visible {
+  opacity:1;
+}
+
+#larger {
+  height: auto;
+  width: 9000px;
+}
