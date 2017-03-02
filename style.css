@@ -1,12 +1,50 @@
-.title {
-  text-align: center;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-}
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+html{
+  background:#FFF;
+
+}
 
 img {
   box-shadow: 5px 5px 15px #888888;
   opacity: 1;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+h3 {
+  text-align: center;
+}
+
+footer {
+  background:#009be8;
+  padding: 1em 0;
+  opacity: .9;
+}
+
+body {
+	background: #445;
+	color: #FFF;
+}
+h1 {
+}
+
+
+.title {
+  font-family:'NTR', sans-serif;
+  font-size: 3rem;
+  display: block;
+  padding: 1rem;
+  font-weight: 500;
+  position: relative;
+  opacity: 1;
+  transform: scale(1);
+  transition: transform 0.5s ease, opacity 1s ease;
+  text-allign: center;
 }
 
 .hovereffect {
@@ -43,7 +81,8 @@ img {
   padding: 50px 20px;
 }
 
-.hovereffect img, .hovereffect2 img {
+.hovereffect img,
+ .hovereffect2 img {
   display: inline;
   max-width: none;
   width: calc(104%);
@@ -132,12 +171,6 @@ img {
   transform: translate3d(0,0,0);
 }
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-html{
-  background:#FFF;
-
-}
 
 #feedback-page{
 	text-align:center;
@@ -312,27 +345,12 @@ input:focus, textarea:focus {
 	}
 }
 
-h1 {
-  text-align: center;
-  position: relative;
-  top: 50px;
-}
-
 .contact-form {
   position: relative;
   top: -140px;
   left: 250px;
 }
 
-h3 {
-  text-align: center;
-}
-
-footer {
-  background:#009be8;
-  padding: 1em 0;
-  opacity: .9;
-}
 
 .footer-text {
   color:#fff;
@@ -344,13 +362,7 @@ footer {
 }
 
 
-
-
 /****************** Audrey CSS *******************************/
-body {
-	background: #445;
-	color: #FFF;
-}
 
 #main {
 	background: linear-gradient(to bottom, rgba(0,0,0,0.66) 100%, transparent), url(https://static1.squarespace.com/static/5307de1fe4b032b4d4aeb5d3/t/5307e4e0e4b041f3458e744a/1433075546917/bos_skyline_pru.jpg?format=1500w);
@@ -363,18 +375,6 @@ body {
 	align-items: center;
 }
 
-h1 {
-	font-family:'NTR', sans-serif;
-	font-size: 3rem;
-	display: block;
-	padding: 1rem;
-	font-weight: 500;
-  position: relative;
-	opacity: 1;
-	transform: scale(1);
-	transition: transform 0.5s ease, opacity 1s ease;
-    text-allign: center;
-}
 
 .is-loading h1 {
 	transform: scale(0.9);
