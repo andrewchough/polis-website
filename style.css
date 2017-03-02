@@ -30,9 +30,12 @@ body {
 	background: #445;
 	color: #FFF;
 }
-h1 {
-}
 
+.hovereffect .overlay p ,.hovereffect2 .overlay p {
+  position: relative;
+  font-family:'NTR', sans-serif;
+  color: #FFF;
+}
 
 .title {
   font-family:'NTR', sans-serif;
@@ -251,7 +254,7 @@ h1 {
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
-  width: 85%;
+  width: 68%;
   height: 90%;
 }
 
@@ -270,7 +273,7 @@ h1 {
 	background-size: 30px 30px;
   background-position: 11px 8px;
 	background-repeat: no-repeat;
-  width: 85%;
+  width: 68%;
   height: 90%;
 }
 
