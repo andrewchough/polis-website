@@ -4,7 +4,7 @@
 }
 
 
-img {
+.hovereffect img, .hovereffect2 img {
   box-shadow: 5px 5px 15px #888888;
   opacity: 1;
 }
