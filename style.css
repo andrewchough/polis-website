@@ -342,3 +342,208 @@ footer {
   font-size:1em;
   opacity: .8;
 }
+
+
+
+
+/****************** Audrey CSS *******************************/
+body {
+	background: #445;
+	color: #FFF;
+}
+
+#main {
+	background: linear-gradient(to bottom, rgba(0,0,0,0.66) 100%, transparent), url(https://static1.squarespace.com/static/5307de1fe4b032b4d4aeb5d3/t/5307e4e0e4b041f3458e744a/1433075546917/bos_skyline_pru.jpg?format=1500w);
+	background-size: cover, cover;
+	background-position: center, center;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-family:'NTR', sans-serif;
+	font-size: 3rem;
+	display: block;
+	padding: 1rem;
+	font-weight: 500;
+  position: relative;
+	opacity: 1;
+	transform: scale(1);
+	transition: transform 0.5s ease, opacity 1s ease;
+    text-allign: center;
+}
+
+.is-loading h1 {
+	transform: scale(0.9);
+	opacity: 0;
+}
+
+h1:before,
+h1:after {
+	height: 2px;
+	width: 100%;
+	content: "";
+	background: white;
+	display: block;
+	position: absolute;
+	transition: width 0.4s ease;
+	transition-delay: 0.8s;
+}
+
+h1:before {
+	top: 0;
+	left: 0;
+}
+
+h1:after {
+	bottom: 0;
+	right: 0;
+}
+
+.is-loading h1:before,
+.is-loading h1:after {
+	width: 0;
+}
+
+
+/*pisah like fuck
+*/
+.page-content {
+  position: relative;
+  z-index: 0;
+  -webkit-transition: all 0.15s ease-out 0;
+     -moz-transition: all 0.15s ease-out 0;
+          transition: all 0.15s ease-out 0;
+  background: #eee;
+}
+
+.toggle {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  -webkit-transition: all 0.15s ease-out 0;
+     -moz-transition: all 0.15s ease-out 0;
+          transition: all 0.15s ease-out 0;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  cursor: pointer;
+
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -190px;
+  -webkit-transition: all 0.15s ease-out 0;
+     -moz-transition: all 0.15s ease-out 0;
+          transition: all 0.15s ease-out 0;
+  width: 120px;
+  padding: 30px;
+  background: #333;
+  z-index: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'NTR', sans-serif;
+  font-size: 16px;
+  margin-bottom: 16px;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+#sidebartoggler {
+  display: none;
+  color: #fff;
+}
+
+  #sidebartoggler:checked + .page-wrap .sidebar {
+    left: 0px; }
+
+  #sidebartoggler:checked + .page-wrap .toggle {
+    left: 200px; }
+
+  #sidebartoggler:checked + .page-wrap .page-content {
+    padding-left: 180px; }
+
+
+
+form {
+  @media screen and (max-width: 768px) and (min-width: 485px) {
+    max-width: 70%;
+  }
+}
+
+.container > h1 {
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  color: #445;
+  padding: 30;
+  margin: 30;
+}
+
+.sec-about a {
+  color: #000;
+  &:hover,
+  &:focus {
+    color: #000;
+  }
+}
+
+.sec-about p {
+  text-align: center;
+}
+.sec-about a {
+  text-decoration: underline;
+}
+
+section {
+  padding: 5em 0;
+}
+
+footer {
+  padding: 3em 0;
+}
+
+form {
+  @media screen and (max-width: 768px) and (min-width: 485px) {
+    max-width: 70%;
+  }
+}
+
+ul {
+  padding: 10;
+  margin: 10;
+  list-style-type: none;
+}
+
+a {
+  @extend %transition;
+}
+
+hr {
+  margin-bottom: 3em;
+  width: 7%;
+}
+
+.sec-folio .row {
+  margin-bottom: 3em;
+}
